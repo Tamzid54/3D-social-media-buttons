@@ -1,0 +1,30 @@
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+body{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.box a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    color: white;
+    background: #e74c3c;
+    text-decoration: none;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 0.3 all;
+
+}
+.box a:hover{
+    border-bottom: 2px solid #c0392b;
+    opacity: 0.8;
+}
